@@ -1,0 +1,224 @@
+
+body 
+{
+  font-family: "Roboto", "Arial";
+}
+
+/* ===================================
+======= The Hero Section ============= 
+====================================*/
+
+.hero
+{
+  display: flex;
+  flex-flow: column;
+  background: #1F2937;
+}
+/* margins for hero */
+.header,.title
+{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/* Style the Header */
+.header
+{
+  display: flex;
+  justify-content: space-between;
+  min-height: 150px;
+  padding-top: 10px;
+}
+.header-logo
+{
+  font-size: 24px;
+  font-weight: bold;
+  color: #F4FAF8;
+  flex: 0 1 65%;
+}
+.header-links
+{
+  flex: 0 1 auto;
+}
+a
+{
+  text-decoration: none;
+  /* the rest of the properties are defined below with the .title-subtext class*/
+}
+
+/* Style the hero title */
+
+.title
+{
+  display: flex;
+  justify-content: space-between;
+}
+.title-text
+{
+  display: flex;
+  flex-flow: column;
+}
+.title-main-text
+{
+  font-size: 48px;
+  color: #F4FAF8;
+  font-weight: 900;
+  padding: 5px;
+}
+a, .title-subtext
+{
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #E5E7EB;
+  flex: 0 5 auto;
+}
+.title-img
+{
+  padding: 20px;
+}
+button
+{
+
+  background-color: #3882F6;
+  padding: 5px;
+  border: none;
+  max-height: 100px;
+  max-width: 120px;
+
+  border-radius: 10px;
+}
+
+/* ===================================
+====== The Information Section ======= 
+====================================*/
+
+.information
+{
+  padding-top: 50px;
+  padding-bottom: 150px;
+  display: flex;
+  flex-flow: column;
+}
+.information-header
+{
+  font-size: 36px;
+  color: #1F2937;
+  align-self: center;
+}
+.information-content
+{
+  padding-top: 50px;
+  align-self: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.information-element
+{
+  display: flex;
+  flex-flow: column;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.information-subtext
+{
+  max-width: 150px;
+  font-size: 16px;
+  text-align: center;
+  color: #1F2937;
+  flex: 0 5 auto;
+}
+
+/* ===================================
+========= The Quote Section ========== 
+====================================*/
+
+.quote
+{ 
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: #E5E7EB;
+}
+.quote-content
+{
+  display: flex;
+  flex-flow: column;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.quote-text
+{
+  
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: 300;
+}
+.quote-author
+{
+  align-self:flex-end;
+  font-size: 18px;
+  color: #1F2937;
+  font-weight: 900;
+}
+.outside-cot
+{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.cot
+{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  background-color: #3882F6;
+  color: #E5E7EB;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.cot-text:
+{
+  display: flex;
+  flex-flow: column;
+}
+.cot-header:
+{
+  font-size: 15px;
+  font-weight: bold;
+}
+.cot-subtext:
+{
+  color: #E5E7EB;
+  font-size: 15px;
+  font-weight: bold;
+}
+.cot-button
+{
+  border: solid #E5E7EB;
+  border-radius: 10px;
+  button
+  {
+    color: #E5E7EB;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+.footer 
+{
+  background-color:  #1F2937;
+  padding-top:30px;
+  padding-bottom:30px;
+  display: flex;
+  justify-content: center;
+    color: #E5E7EB;
+}
